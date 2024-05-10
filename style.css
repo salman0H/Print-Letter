@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root{
+    --body: #000000;
+    --font: #12e6c8; 
+    --section: #a287f4;
+    --elements: #414141;
+}
+
+body{
+    background-color: var(--body);
+}
+
+.countainer{
+    width: auto;
+    height: auto;
+    padding: 25px;
+    border-left: 5px solid var(--section);
+    border-top: 5px solid var(--section);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.text{
+    font-family: sans-serif;
+    font-size: 5rem;
+    color: var(--font);
+    font-weight: bold;
+}
